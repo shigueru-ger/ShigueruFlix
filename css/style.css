@@ -1,0 +1,115 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/001/401/677/non_2x/abstract-polygonal-shape-black-background-free-vector.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(26, 26, 26);
+    padding: 10px 20px;
+    color: white;
+    
+}
+
+
+#loginho {
+    float: left;
+    border-radius: 8px;
+    margin-left: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#loginho4 {
+    display: block;''
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 95%;
+    margin: 30px auto;
+    background-color: rgba(0, 0, 0, 0.195);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px); 
+}
+
+td {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+}
+
+.titulo-secao {
+    background-color: #02007d;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px;
+    text-align: center;
+}
+
+
+#rush {
+    width: 160px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+#rush:hover {
+    transform: scale(1.05);
+}
+
+
+.filme {
+    display: block;
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+a {
+    color: #00a6ff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #00a6ff;
+}
+
+
+footer, header#ul1 {
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+#ano {
+    color: white;
+    font-weight: bold;
+}
+
+#ul1 {
+    list-style-type: none;
+}

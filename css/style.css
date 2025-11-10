@@ -109,7 +109,6 @@ footer, header#ul1 {
     font-weight: bold;
 }
 
-#ul1 {
-    display: flex;
-    justify-content: center;
+#sobresobre {
+    list-style-type: none;
 }

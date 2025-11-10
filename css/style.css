@@ -112,3 +112,8 @@ footer, header#ul1 {
 #sobresobre {
     list-style-type: none;
 }
+
+#ul1 {
+    display: flex;
+    justify-content: center;
+}

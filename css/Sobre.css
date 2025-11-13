@@ -2,7 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 40px 20px;
-    background-image: url('/imagens/tela de fundo me.jpg');
+    background-image: url('../imagens/tela de fundo me.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
